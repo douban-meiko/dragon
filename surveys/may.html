@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>趣味小调查 - 结果</title>
+</head>
+<body>
+    
+  <div class="center" style="width: 300px;">
+   <canvas id="pie-chart-1" ></canvas>
+  </div>
+  <div class="center" style="width: 300px">
+   <canvas id="pie-chart-2" ></canvas>
+  </div>
+  <div class="center" style="width: 300px">
+   <canvas id="pie-chart-3" ></canvas>
+  </div>
+  <div class="center" style="width: 300px">
+   <canvas id="pie-chart-4" ></canvas>
+  </div>
+  <div class="center" style="width: 300px">
+   <canvas id="pie-chart-5" ></canvas>
+  </div>
+  <div class="center" style="width: 300px">
+   <canvas id="pie-chart-6" ></canvas>
+  </div>
+  <div class="center" style="width: 300px">
+   <canvas id="pie-chart-7" ></canvas>
+  </div>
+  <div class="center" style="width: 300px">
+   <canvas id="pie-chart-8" ></canvas>
+  </div>
+  <div class="center" style="width: 300px">
+   <canvas id="pie-chart-9" ></canvas>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+  <script>
+  new Chart(document.getElementById("pie-chart-1"), {
+    type: 'pie',
+    data: {
+      labels: ["狗🐶", "月🌛", "XXZ🐟"],
+      datasets: [{
+        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+        data: [7,2,1]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: '群里，谁最艰苦奋斗？'
+      }
+    }
+});
+
+new Chart(document.getElementById("pie-chart-2"), {
+    type: 'pie',
+    data: {
+      labels: ["XXZ🐟", "康📷", "左⬅️", "狗🐶"],
+      datasets: [{
+        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+        data: [4,3,2,1]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: '群里，谁最佛？'
+      }
+    }
+});
+
+new Chart(document.getElementById("pie-chart-3"), {
+    type: 'pie',
+    data: {
+      labels: ["扣🦒", "XXZ🐟", "⭕️氪", "月🌛", "豚🐢"],
+      datasets: [{
+        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+        data: [4,3,1,1,1]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: '群里，谁（和同性别相比）物理战斗力最高？'
+      }
+    }
+});
+
+new Chart(document.getElementById("pie-chart-4"), {
+    type: 'pie',
+    data: {
+      labels: ["XXZ🐟", "左⬅️", "康📷", "扣🦒"],
+      datasets: [{
+        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+        data: [4,4,1,1]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: '群里，谁最会屠？'
+      }
+    }
+});
+
+new Chart(document.getElementById("pie-chart-5"), {
+    type: 'pie',
+    data: {
+      labels: ["麦❕", "王🐰", "XXZ🐟", "扣🦒", "月🌛", "鼓🥁"],
+      datasets: [{
+        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+        data: [4,2,1,1,1,1]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: '群里，谁最不会屠？'
+      }
+    }
+});
+
+new Chart(document.getElementById("pie-chart-6"), {
+    type: 'pie',
+    data: {
+      labels: ["XXZ🐟", "扣🦒", "王🐰", "左⬅️", "月🌛", "麦❕", "鼓🥁"],
+      datasets: [{
+        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850","#3e95cd"],
+        data: [2,2,2,1,1,1,1]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: '群里，去无人岛最想和谁一起？'
+      }
+    }
+});
+
+new Chart(document.getElementById("pie-chart-7"), {
+    type: 'pie',
+    data: {
+      labels: ["鼓🥁", "XXZ🐟", "狗🐶", "王🐰"],
+      datasets: [{
+        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+        data: [7,1,1,1]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: '群里，谁做饭最好吃？'
+      }
+    }
+});
+
+new Chart(document.getElementById("pie-chart-8"), {
+    type: 'pie',
+    data: {
+      labels: ["左⬅️", "扣🦒", "XXZ🐟", "狗🐶"],
+      datasets: [{
+        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+        data: [4,4,1,1]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: '群里，做饭最难吃？'
+      }
+    }
+});
+   
+
+new Chart(document.getElementById("pie-chart-9"), {
+    type: 'pie',
+    data: {
+      labels: ["鼓🥁", "扣🦒", "王🐰", "月🌛"],
+      datasets: [{
+        backgroundColor: ["#3e95cd", "#8e5ea2","#3cba9f","#e8c3b9","#c45850"],
+        data: [4,3,2,1]
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: '群里，谁最能喝？'
+      }
+    }
+});
+  </script>
+
+</body>
+</html>
